@@ -195,7 +195,7 @@ You can request developer support from the dedicated section on our
 
 ## Sharing your feedback ?
 
-**(??) **Please share your feedback under: [Survey - WILL SDK for devices](https://www.surveymonkey.de/r/willsdkfordevices)
+**(??) ** Please share your feedback under: [Survey - WILL SDK for devices](https://www.surveymonkey.de/r/willsdkfordevices)
 
 ## License 
 This sample code is licensed under the [MIT License](
