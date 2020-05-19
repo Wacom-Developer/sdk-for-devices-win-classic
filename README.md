@@ -1,6 +1,6 @@
-# WILL SDK for Devices - CDL - Windows Classic
+# Wacom Ink SDK for devices - Windows Classic
 
-## Introduction
+## Introduction to CDL - Windows Classic
 
 ---
 
@@ -9,7 +9,7 @@ The benefits of using the CDL include:
 
 * Less implementation effort for developers: integration of a single library gives support for a range of input devices
 * The flexibility to include support for non-Wacom devices in an application
-* The freedom to take full advantage of the WILL™ digital ink ecosystem to provide high quality digital ink rendering without sacrificing the value of raw pen data needed in processes such as signature verification
+* The freedom to take full advantage of the *Wacom Ink Technologies* digital ink ecosystem to provide high quality digital ink rendering without sacrificing the value of raw pen data needed in processes such as signature verification
 * A generic interface relieves the application code from direct control of the connected hardware
 
 Using the library you can:
@@ -185,18 +185,17 @@ Alternatively, there are three events through which you can receive data in real
 ---
 
 ## Documentation
-For further details on using the SDK see [https://developer-docs.wacom.com](https://developer-docs.wacom.com) 
-Navigate to **WILL SDK for devices**
+For further details on using the SDK see [http://will-docs.westeurope.cloudapp.azure.com/sdk-for-devices/) 
 
 The API Reference is available directly in the downloaded SDK.
 
 ## Getting support
 You can request developer support from the dedicated section on our
-[developer relations portal.](https://developer.wacom.com/developer-dashboard/support)
+[developer relations portal.](http://will-docs.westeurope.cloudapp.azure.com/faqs/docs/q-support/support)
 
 ## Sharing your feedback ?
 
-Please share your feedback under: [Survey - WILL SDK for devices](https://www.surveymonkey.de/r/willsdkfordevices)
+**(??) **Please share your feedback under: [Survey - WILL SDK for devices](https://www.surveymonkey.de/r/willsdkfordevices)
 
 ## License 
 This sample code is licensed under the [MIT License](
