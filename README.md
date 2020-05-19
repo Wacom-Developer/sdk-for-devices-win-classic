@@ -1,3 +1,3 @@
 # Wacom Ink SDK for devices - Windows Classic
 
-![Under constuction](.\media\under-construction.png)
+![Under construction](./media/under-construction.png)
