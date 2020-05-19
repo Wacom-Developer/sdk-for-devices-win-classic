@@ -1,0 +1,118 @@
+﻿<Page x:Class="WillDevicesSampleApp.MainPage"
+	  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	  xmlns:local="using:WillDevicesSampleApp"
+	  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	  xmlns:data="using:Wacom.Devices"
+	  mc:Ignorable="d"
+	  Width="770">
+  
+  <!-- Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"-->
+	<Grid >
+		<Grid.RowDefinitions>
+			<RowDefinition Height="auto" />
+			<RowDefinition Height="auto" />
+			<RowDefinition Height="auto" />
+			<RowDefinition Height="auto" />
+			<RowDefinition Height="auto" />
+			<RowDefinition Height="auto" />
+		</Grid.RowDefinitions>
+
+		<Button x:Name="buttonScan"
+				Grid.Row="0"
+				Content="Scan for Devices"
+				HorizontalAlignment="Left"
+				VerticalAlignment="Top"
+				Width="220"
+				Height="60"
+				Margin="10,30,0,0"
+				Click="ButtonScan_Click" />
+		
+		<TextBlock Name="textBlockDeviceName"
+				   Text="Current Device:"
+				   Grid.Row="1"
+				   Margin="10,20,0,0"/>
+		<TextBlock Name="textBlockStatus"
+				   Grid.Row="2"
+				   Foreground="Crimson"
+				   Margin="10,20,0,0" />
+		<Border Grid.Row="3"
+				BorderThickness="1"
+				BorderBrush="Black"
+				Margin="10,10,10,10">
+
+      <DataGrid x:Name="gridViewDeviceProperties"
+                IsReadOnly="True"
+                SelectionMode="Single"
+                Height="300"
+                Margin="5">
+        <DataGrid.ItemsPanel>
+          <ItemsPanelTemplate>
+            <WrapPanel Orientation="Vertical"/>
+          </ItemsPanelTemplate>
+        </DataGrid.ItemsPanel>
+        <DataGrid.ItemTemplate>
+          <DataTemplate>
+            <Grid>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="300" />
+              </Grid.ColumnDefinitions>
+              <TextBlock Grid.Column="0" 
+									   Text="{Binding PropertyName}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0"/>
+              <TextBlock Grid.Column="1" 
+									   Text="{Binding PropertyValue}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"/>
+            </Grid>
+          </DataTemplate>
+        </DataGrid.ItemTemplate>
+      </DataGrid>
+      <!--<GridView x:Name="gridViewDeviceProperties"
+					  IsItemClickEnabled="False"   
+					  IsSwipeEnabled="False"
+					  SelectionMode="None"
+					  Height="300"
+					  Margin="5">
+
+				<GridView.ItemsPanel>
+					<ItemsPanelTemplate>
+						<WrapGrid Orientation="Vertical" />
+					</ItemsPanelTemplate>
+				</GridView.ItemsPanel>
+
+				<GridView.ItemTemplate>
+					<DataTemplate>
+						<Grid>
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="80" />
+								<ColumnDefinition Width="300" />
+							</Grid.ColumnDefinitions>
+							<TextBlock Grid.Column="0" 
+									   Text="{Binding PropertyName}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0"/>
+							<TextBlock Grid.Column="1" 
+									   Text="{Binding PropertyValue}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"/>
+						</Grid>
+					</DataTemplate>
+				</GridView.ItemTemplate>
+			</GridView>-->
+		</Border> <!--
+		<Button x:Name="buttonFileTransfer"
+				Grid.Row="4"
+				Content="File Transfer"
+				HorizontalAlignment="Left"
+				VerticalAlignment="Top"
+				Width="220"
+				Height="60"
+				Margin="10,10,0,10"
+				Click="ButtonFileTransfer_Click" /> -->
+		<Button x:Name="buttonRealTime"
+				Grid.Row="5"
+				Content="Real Time Ink"
+				HorizontalAlignment="Left"
+				VerticalAlignment="Top"
+				Width="220"
+				Height="60"
+				Margin="10,10,0,0"
+				Click="ButtonRealTime_Click" />
+	</Grid>
+</Page>
