@@ -184,18 +184,26 @@ Alternatively, there are three events through which you can receive data in real
 
 ---
 
+# Additional resources 
+
+## Sample Code
+For further samples check Wacom's Developer additional samples, see [https://github.com/Wacom-Developer](https://github.com/Wacom-Developer)
+
 ## Documentation
-For further details on using the SDK see [http://will-docs.westeurope.cloudapp.azure.com/sdk-for-devices/) 
+For further details on using the SDK see [Wacom Ink SDK for devices documentation](http://will-docs.westeurope.cloudapp.azure.com/sdk-for-devices/) 
 
 The API Reference is available directly in the downloaded SDK.
 
-## Getting support
-You can request developer support from the dedicated section on our
-[developer relations portal.](http://will-docs.westeurope.cloudapp.azure.com/faqs/docs/q-support/support)
+## Support
+If you experience issues with the technology components, please file a ticket in our Developer Support Portal:
 
-## Sharing your feedback ?
+- [Developer Support Portal](https://developer.wacom.com/developer-dashboard/support)
 
-(##)Please share your feedback under: [Survey - WILL SDK for devices](https://www.surveymonkey.de/r/willsdkfordevices)
+## Developer Community 
+Join our developer community:
+
+- [LinkedIn - Wacom for Developers](https://www.linkedin.com/company/wacom-for-developers/)
+- [Twitter - Wacom for Developers](https://twitter.com/Wacomdevelopers)
 
 ## License 
 This sample code is licensed under the [MIT License](
