@@ -195,9 +195,9 @@ For further details on using the SDK see [Wacom Ink SDK for devices documentatio
 The API Reference is available directly in the downloaded SDK.
 
 ## Support
-If you experience issues with the technology components, please file a ticket in our Developer Support Portal:
+If you experience issues with the technology components, please see related [FAQs](http://will-docs.westeurope.cloudapp.azure.com/faqs)
 
-- [Developer Support Portal](https://developer.wacom.com/developer-dashboard/support)
+For further support file a ticket in our **Developer Support Portal** described here [Request Support](https://developer.wacom.com/developer-dashboard/support)
 
 ## Developer Community 
 Join our developer community:
@@ -206,5 +206,7 @@ Join our developer community:
 - [Twitter - Wacom for Developers](https://twitter.com/Wacomdevelopers)
 
 ## License 
-This sample code is licensed under the [MIT License](
-https://choosealicense.com/licenses/mit/).
+This sample code is licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
+
+---
+

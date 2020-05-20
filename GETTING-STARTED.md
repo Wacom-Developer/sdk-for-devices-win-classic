@@ -10,7 +10,7 @@ To test the application use a Wacom device such as a Bamboo Slate, Folio or PHU-
 
 ## Download the CDL SDK
 
-(##)Download the SDK from https://developer.wacom.com/developer-dashboard
+Download the SDK from https://developer.wacom.com/developer-dashboard
 
 * login using your Wacom ID
 * Select **Downloads for devices**
@@ -22,13 +22,13 @@ The folder 'Sdk' is included in the Zip file and is needed to build the sample.
 
 ## Download an evaluation license
 
-(##)A license is needed to use the CDL and a fully functional evaluation license is free to download as follows:
+A license is needed to use the CDL and a fully functional evaluation license is free to download as follows:
 
 * Navigate to https://developer.wacom.com/developer-dashboard
 * login using your Wacom ID
 * Select **Licenses**
 * Select **New Evaluation License**
-* Select **Generate Evaluation License** for WILL SDK for devices
+* Select **Generate Evaluation License** for Wacom Ink SDK for devices
 * Return to Licenses where the new license file is ready for download
 * Download the license file
 
