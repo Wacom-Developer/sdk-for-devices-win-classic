@@ -14,7 +14,7 @@ Download the SDK from https://developer.wacom.com/developer-dashboard
 
 * login using your Wacom ID
 * Select **Downloads for devices**
-* Download **CDL for Windows Classic (.NET)**
+* Download **Wacom Ink SDK for devices for Windows Classic (.NET)**
 * Accept the End User License Agreement to use the SDK
 
 The downloaded Zip file contains the SDK with documentation.
