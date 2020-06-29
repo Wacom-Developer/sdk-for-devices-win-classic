@@ -1,4 +1,4 @@
-# CDL Windows Classic
+# Wacom Ink SDK for devices - Windows Classic
 
 ## Version 1.0.1c
 
