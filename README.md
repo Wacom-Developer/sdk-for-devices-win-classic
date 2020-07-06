@@ -1,10 +1,10 @@
 # Wacom Ink SDK for devices - Windows Classic
 
-## Introduction to CDL - Windows Classic
+## Introduction
 
 ---
 
-The *Common Device Library* (CDL) is supplied as a single library that can handle different types of pen or touch input from Wacom and third-party devices.
+The Wacom Ink SDK for devices incorporates the *Common Device Library* (CDL) supplied as a single library that can handle different types of pen or touch input from Wacom and third-party devices.
 The benefits of using the CDL include:
 
 * Less implementation effort for developers: integration of a single library gives support for a range of input devices
@@ -56,7 +56,7 @@ To view operation of the CDL diagrammatically:
 
 
 ### 1. Initialize License
-You will need a CDL license, issued for your application:
+You will need a Wacom Ink SDK for devices license, issued for your application:
 
 ```csharp
 try 
