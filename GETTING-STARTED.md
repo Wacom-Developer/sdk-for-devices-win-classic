@@ -13,9 +13,10 @@ To test the application use a Wacom device such as a Bamboo Slate, Folio or PHU-
 Download the SDK from https://developer.wacom.com/developer-dashboard
 
 * login using your Wacom ID
-* Select **Downloads for devices**
-* Download **Wacom Ink SDK for devices for Windows Classic (.NET)**
-* Accept the End User License Agreement to use the SDK
+* Navigate to **Downloads for devices**
+* Select **More info** on **Wacom Ink SDK for devices for Windows Classic (.NET)**
+* Accept the End User License Agreement and select **Download** to use the SDK
+
 
 The downloaded Zip file contains the SDK with documentation.
 The folder 'Sdk' is included in the Zip file and is needed to build the sample.
