@@ -1,5 +1,8 @@
 # Wacom Ink SDK for devices - Windows Classic
 
+> **Important Note:**
+> This series of Wacom products is due to be discontinued soon. Support for them will no longer be offered. 
+
 ## Introduction
 
 ---
